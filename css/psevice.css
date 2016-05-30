@@ -1,0 +1,82 @@
+@charset "utf-8";
+.content{
+	width: 1210px;
+}
+.content .content-position{
+	margin-left: 60px;
+}
+.content .cont-left{
+	margin-left: 60px;
+	margin-top: 30px;
+	width: 450px;
+	height: 500px;
+	background-color: #fff;
+	float: left;
+	font-size: 15px;
+}
+.content .cont-left .left-but .button{
+      width: 170px;
+      height: 50px;
+      margin:20px 5px 10px 30px;
+      background-color: #fff;
+      border: 1px solid #D6D3D3;
+      font-size: 20px;
+}
+.content .cont-left .left-but .button:hover{
+	background-color: #E70014;
+	color: #fff;
+}
+.content .cont-left .left-but .radio{
+	margin-left: 30px;
+}
+.content .cont-left .left-but .select{
+	width: 170px;
+	height: 30px;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.content .cont-left .left-but span{
+	margin:0px 10px 10px 20px;
+	font-size: 12px; 
+	color: #6F6767;
+}
+.content .cont-left .left-but .text{
+	height: 310px;
+	width: 380px;
+	margin-top: 10px;
+	margin-left: 30px;
+	border: 1px solid #837E7E;
+	overflow: scroll;
+	text-overflow: ellipsis;
+}
+.content .cont-left .left-but .text table tr td h3{
+	margin-left: 30px;
+	color: #E80014;
+}
+.content .cont-left .left-but .text table tr td ul li{
+	list-style: none;
+	line-height: 22px;
+	font-size: 12px;
+	color: #6F6767;
+}
+.content .cont-left .left-but .text table tr td ul:hover li{
+	color: #E80014;
+	cursor: pointer;
+}
+.content .cont-right{
+    float: right;
+    margin-top: 30px;
+}
+.content{
+	zoom:1;
+}
+.content:after{
+   display: table;
+   content:"";
+   clear: both;
+}
+.content .cont-right .contr-top{
+	width: 674px;
+	height: 85px;
+	background-image: url(../images/pse1.jpg);
+}

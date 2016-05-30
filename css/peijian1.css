@@ -1,0 +1,53 @@
+@charset "utf-8";
+.content .content-pjfw .sp1{
+	margin-left: 50px;
+}
+.content .content-pjfw h1{
+	margin-left:600px;
+	color: red;
+	font-size: 30px;
+}
+.content .content-pjfw .content-pjbody{
+	text-align: center;
+	font-size: 17px;
+	line-height: 60px;
+}
+.content .content-pjfw .content-pjbody button{
+	width: 120px;
+	height: 35px;
+	background-color: #E5E5E5;
+	outline: none;
+	margin-left: 10px;
+	font-size: 17px;
+}
+.content .content-pjfw .content-pjbody button:hover{
+	background-color: red;
+	color: #fff;
+}
+.content .content-pjfw .content-pjbody .inp1{
+	width: 280px;
+	height: 25px;
+}
+.content .content-pjfw .content-pjbody .inp2{
+	width: 180px;
+	height: 25px;
+}
+.content .content-pjfw .content-pjbody .yzm{
+	width: 100px;
+	height: 25px;
+	text-align: center;
+	background-color: #89A590;
+}
+.content .content-pjfw .content-pjbody .bcheck{
+	width: 300px;
+	height: 45px;
+	font-size: 25px;
+	margin-left: 80px;
+	background-color: red;
+	color: #fff;
+}
+.content .content-pjfw .content-pjbot p{
+    margin-left: 550px;
+    line-height: 20px;
+    color: red;
+}

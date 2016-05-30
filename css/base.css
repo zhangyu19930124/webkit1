@@ -1,0 +1,285 @@
+@charset "utf-8";
+body{
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #f1f1f1;
+}
+.heade{
+	height: 180px;
+	width: 100%;
+	background-color: #fff;
+}
+.top{
+     height: 40px;
+	background-color:#f1f1f1;
+}
+/*头部欢迎区域*/
+.top .wrap-center .top-welcome{
+	float: left;
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.top .wrap-center .top-welcome a{
+	text-decoration: none;
+	color: #000;
+}
+.top .wrap-center .top-welcome a:hover{
+	text-decoration: underline;
+	color: red;
+}
+/*头部导航区域*/
+.top .wrap-center .top-user{
+	float: right;
+	margin-right: 40px;
+	margin-top: -12px;
+}
+.top .wrap-center .top-user a{
+	text-decoration: none;
+	color: #000;
+}
+.top .wrap-center .top-user a:hover{
+	color: red;
+}
+.top .wrap-center .top-user ul li{
+     list-style: none;
+     float: left;
+     margin:10px;
+}
+.top .wrap-bottem .top-images img{
+	margin-left: -200px;
+	margin-top: 40px;
+}
+.top .wrap-bottem .top-images a:hover{
+cursor: pointer;
+}
+.top .wrap-bottem .top-input{
+	float: right;
+	margin-top: -50px;
+	margin-right: 150px;
+}
+.top .wrap-bottem .top-input .text-input{
+	border: 1px solid red;
+	width: 400px;
+	height: 35px;
+	outline: none;
+}
+.top .wrap-bottem .top-input .button-input{
+	width: 60px;
+	height: 37px;
+    margin-left: -6px;
+    background-color: red;
+    color: #fff;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+}
+.top .wrap-bottem .top-input .shopping-input{
+	background-color: #FF9900;
+	width: 100px;
+	height: 37px;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin-left: 80px;
+}
+.clear{
+	clear: both;
+}
+.top .wrap-bottem .top-input .button-input,.shopping-input:hover{
+	cursor: pointer;
+}
+/*.top .wrap-bottem .top-xlog{
+	float: right;
+}*/
+.top .wrap-bottem .top-input ul li{
+	float: left;
+	list-style: none;
+	margin-left: 10px;
+	color: #A7A7A7;
+}
+.top .wrap-bottem .top-input ul li a{
+	text-decoration: none;
+	color: #A7A7A7;
+}
+.top .wrap-bottem .top-input ul li a:hover{
+	color: red;
+}
+/*content部分*/
+.content .content-login ul{
+	margin-left: 60px;
+	width: 1105px;
+    height: 44px;
+    background-color: #404040;
+}
+.content .content-login ul .prod{
+	background-color: #E70014;
+}
+.content .content-login ul li{
+    color: #fff;
+	text-align: center;
+	list-style: none;
+    float: left;
+    font-size: 20px;
+    width: 200px;
+    line-height: 44px;
+    margin-left: -40px;
+    position: relative;
+}
+.content .content-login ul li img{
+	position: absolute;
+	top: -15px;
+}
+.content .content-login ul li a{
+	text-decoration: none;
+    color: #fff;
+    display: block;
+}
+.content .content-login ul li a:hover{
+	color: red;
+}
+/*footer部分*/
+#footer{
+	/*margin-top: 500px;*/
+}
+#footer .fhead{
+	height: 80px;
+	background-color: #E70014;
+}
+#footer .fhead ul li{
+	float: left;
+	list-style: none;
+	font-size: 20px;
+	color: #fff;
+	width: 300px;
+	padding-top: 30px;
+}
+#footer .fhead .fp1,.fp2,.fp3,.fp4{
+	float: left;
+	margin-top: -14px;
+	width: 60px;
+	height: 55px;
+	background-image: url(../images/foot_ico.png);
+	background-repeat: no-repeat;
+}
+#footer .fhead .fp2{
+    background-position: left -60px top 0px;
+}
+#footer .fhead .fp3{
+    background-position: left -123px top 0px;
+}
+#footer .fhead .fp4{
+    background-position: left -184px top 0px;
+}
+#footer .fhead span{
+	float: left;
+}
+#footer .fbody{
+	height: 240px;
+	background-color: #3B3B3B;
+}
+#footer .fbody table{float: left;}
+#footer .fbody table tr td ul li{
+	list-style: none;
+	font-size: 15px;
+	color: #fff;
+	height: 30px;
+	line-height: 10px;
+	margin-top: 10px;
+}
+#footer .fbody table tr td ul .x1{
+	font-size: 20px;
+}
+#footer .fbody table tr td ul li:hover{
+	color: red;
+	text-decoration: underline;
+}
+#footer hr{
+	width: 100%;
+	border-width: 1px;
+}
+#footer .fbody-last{
+	float: right;
+	margin-top: -200px;
+	margin-right: 150px;
+}
+#footer .fbody-last .last1{
+	float: left;
+	color: #fff;
+}
+#footer .fbody-last .last1 p{
+	margin-left: 30px;
+}
+#footer .fbody-last .last1 span{
+	font-size: 30px;
+	color: red;
+}
+#footer .fbody-last .last2{
+	float: left;
+	margin-left: 20px;
+}
+#footer .lap{
+	height: 60px;
+	margin-top: -15px;
+	background-color: #3B3B3B;
+	color: #fff;
+}
+#footer .lap .last-p{
+	text-align: center;
+	/*margin-left: 400px;*/
+}
+.fix-right{
+	width: 55px;
+	background-color:#fff;
+	/*用fixed定位的参照物是窗口*/
+	position: fixed;
+	right: 0px;
+	top: 30%;
+}
+.fix-right ul{
+	margin-top: -3px;
+}
+.fix-right ul li{
+	/*width: 65px;*/
+	height: 60px;
+	list-style: none;
+	margin-left: -40px;
+	border: 1px solid #fff;
+	border-bottom-color: #ddd;
+
+}
+.fix-right ul li a{
+	color: #000;
+	text-decoration: none;
+}
+.fix-right ul li:hover{
+	background-color: #E70014;
+}
+.fix-right ul li a span{ 
+	font-stretch: expanded;
+	margin-left: 15px;
+}
+.fix-img,.fix-img1,.fix-img2,.fix-img3,.fix-img4{
+	margin-left: 15px;
+	width: 30px;
+	height: 30px;
+	background-image: url(../images/float_ico.png);
+	background-repeat: no-repeat;
+	
+}
+.fix-img{
+background-position: left -155px top 0px;
+}
+.fix-img2{
+	background-position: left -28px top 0px;
+}
+.fix-img3{
+	background-position: left -90px top 0px;
+}
+.fix-img4{
+	background-position: left -123px top 0px;
+}
+.fix-right ul li img{
+	width: 55px;
+	height: 60px;
+}
